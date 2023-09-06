@@ -1,0 +1,64 @@
+:root {
+    --light:#ffffff;
+    --dark:#212529;
+    --mint:#95D5B2;
+}
+
+section {   
+    margin-top: 3rem;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section .details {
+    justify-self: flex-start;
+
+}
+
+
+input[type=text]{
+    width: 90%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: var(--dark);
+    width: 100%;
+    max-width: 400px;
+    color: var(--light);
+    padding: 1rem;
+}
+
+section .textBox{
+    width: 90%;
+    max-width: 600px;
+    margin: 1rem;
+
+}
+
+section .textBox textarea {
+    width: 100%;
+    max-width: 100%; 
+    box-sizing: border-box; 
+    box-shadow: 1px 1px  10px #21252995;
+    color: var(--dark);
+    padding: 1rem;
+}
+
+section .btn {
+    text-align: center;
+}
+
+#create-btn {
+    background-color: var(--light);
+    border: 1px solid var(--mint);
+    margin-top: 1rem;
+}
+
+#create-btn:hover {
+    background-color: var(--mint);
+    color: var(--dark);
+}

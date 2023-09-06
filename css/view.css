@@ -1,0 +1,36 @@
+:root {
+    --cardtext:#ffffff;
+    --cardbg:#1E1E1E;
+    --mint:#95D5B2;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    background: linear-gradient(to bottom, #1E1E1E,#95D5B2) ;
+   
+}
+
+section .card {
+    max-width: 450px;
+    width: 450px;
+    height: auto;
+    background-color: var(--cardbg);
+    color: var(--cardtext);
+    text-align: left;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: .3rem;
+    row-gap:1rem;
+    
+}
+
